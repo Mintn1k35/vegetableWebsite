@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/responesive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="grid wide">
+        <div class="row">
+          <div class="col l-2 m-4 c-12">
+            <div id="logo">
+              <img src="assets/img/logo.png" alt="Logo" />
+            </div>
+          </div>
+          <div class="col l-7 l-o-1 m-0 c-0">
+            <nav id="menu">
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Thịt tươi</a></li>
+                <li><a href="#">Rau sạch</a></li>
+                <li><a href="#">Quả ngọt</a></li>
+                <li><a href="#">Cẩm nang</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Thanh toán</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col l-1 m-2 c-4">
+            <div id="search">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <div class="col l-1 m-2 c-4">
+            <div id="cart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="col l-0 m-4 c-4">
+            <label for="nav_mobile" class="bars">
+              <i class="fas fa-bars"></i>
+            </label>
+          </div>
+          <input type="checkbox" id="nav_mobile" />
+          <label for="nav_mobile" id="overlay"></label>
+          <nav id="menu_mobile">
+            <ul>
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Thịt tươi</a></li>
+              <li><a href="#">Rau sạch</a></li>
+              <li><a href="#">Quả ngọt</a></li>
+              <li><a href="#">Cẩm nang</a></li>
+              <li><a href="#">Liên hệ</a></li>
+              <li><a href="#">Thanh toán</a></li>
+            </ul>
+            <label for="nav_mobile" class="close">
+              <i class="fas fa-times"></i>
+            </label>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div id="slider">
+      <img class="active" src="assets/img/bgSlider.png" alt="" />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmL02yp0GEfQI5f4l2NdkJcxF9YlnhOT4a3w&usqp=CAU"
+        alt=""
+      />
+      <img
+        src="https://www.maulogo.com/data/001/mau-logo-rau-sach-dep-03.jpg"
+        alt=""
+      />
+      <div class="control">
+        <div class="dot active" index="0"></div>
+        <div class="dot" index="1"></div>
+        <div class="dot" index="2"></div>
+      </div>
+    </div>
+    <div id="content">
+      <div id="category">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-4 m-12 c-12">
+              <div class="item">
+                <img src="assets/img/img-featured-01.png" alt="" />
+                <a class="title" href="">Thực phẩm</a>
+                <div class="box"></div>
+              </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <div class="item">
+                <img src="assets/img/img-featured-2.png" alt="" />
+                <a class="title" href="">Rau sạch</a>
+                <div class="box"></div>
+              </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <div class="item">
+                <img src="assets/img/img-featured-03.png" alt="" />
+                <a class="title" href="">Trái cây</a>
+                <div class="box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="new-product">
+        <h1 class="section-title">Thực phẩm mới nhất</h1>
+        <img class="symbol" src="assets/img/leaves.png" alt="" />
+        <div class="grid wide">
+          <ul id="new-product-menu" class="row">
+            <li class="col l-3 m-6 c-12">
+              <a href="#" class="thumb">
+                <img src="assets/img/img-pro-01.png" alt="" />
+              </a>
+              <div class="name-product">Xà lách Lâm Đồng</div>
+              <span class="price">25.000 VNĐ</span>
+              <a href="#" class="insert-on-cart">Thêm vào giỏ hàng</a>
+            </li>
+            <li class="col l-3 m-6 c-12">
+              <a href="#" class="thumb">
+                <img src="assets/img/img-pro-2.png" alt="" />
+              </a>
+              <div class="name-product">Dẻ sườn bò Úc</div>
+              <span class="price">250.000 VNĐ</span>
+              <a href="#" class="insert-on-cart">Thêm vào giỏ hàng</a>
+            </li>
+            <li class="col l-3 m-6 c-12">
+              <a href="#" class="thumb">
+                <img src="assets/img/img-pro-03.png" alt="" />
+              </a>
+              <div class="name-product">Nho đen Mỹ</div>
+              <span class="price">100.000 VNĐ</span>
+              <a href="#" class="insert-on-cart">Thêm vào giỏ hàng</a>
+            </li>
+            <li class="col l-3 m-6 c-12">
+              <a href="#" class="thumb">
+                <img src="assets/img/img-pro-4.png" alt="" />
+              </a>
+              <div class="name-product">Ngao trắng</div>
+              <span class="price">75.000 VNĐ</span>
+              <a href="#" class="insert-on-cart">Thêm vào giỏ hàng</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="handbook">
+        <div class="grid wide">
+          <h1 class="section-title">Cẩm nang nấu ăn</h1>
+          <img class="symbol" src="assets/img/noodles.png" alt="" />
+          <div id="list-handbook" class="row">
+            <div class="col l-4 m-12 c-12">
+              <a class="thumb" href="#">
+                <img src="assets/img/handbook3.png" alt="" />
+              </a>
+              <div class="description">
+                <div class="title">Thịt bò hầm</div>
+                <p>
+                  Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc
+                  và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu
+                  tố trình bày văn bản [...]
+                </p>
+              </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <a class="thumb" href="#">
+                <img src="assets/img/handbook2.png" alt="" />
+              </a>
+              <div class="description">
+                <div class="title">Dạ dày trộn cay</div>
+                <p>
+                  Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc
+                  và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu
+                  tố trình bày văn bản [...]
+                </p>
+              </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <a class="thumb" href="#">
+                <img src="assets/img/handbook1.png" alt="" />
+              </a>
+              <div class="description">
+                <div class="title">Bí quyết nấu ăn ngon</div>
+                <p>
+                  Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc
+                  và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu
+                  tố trình bày văn bản [...]
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="grid wide">
+        <div id="branches" class="row">
+          <div class="col l-4 m-12 c-12">
+            <h1 class="branch-name">Trụ sở chính:</h1>
+            <div class="address">
+              Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân,
+              Thành phố Hà Nội.
+            </div>
+            <span class="phone">Điện thoại: 04.3311.3998</span>
+            <span class="fax">Fax: 04.3311.3996</span>
+          </div>
+          <div class="col l-4 m-12 c-12">
+            <h1 class="branch-name">Chi nhánh Đà Nẵng:</h1>
+            <div class="address">
+              Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân,
+              Thành phố Hà Nội.
+            </div>
+            <span class="phone">Điện thoại: 04.3311.3998</span>
+            <span class="fax">Fax: 04.3311.3996</span>
+          </div>
+          <div class="col l-4 m-12 c-12">
+            <h1 class="branch-name">Chi nhánh Hồ Chí Minh:</h1>
+            <div class="address">
+              Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân,
+              Thành phố Hà Nội.
+            </div>
+            <span class="phone">Điện thoại: 04.3311.3998</span>
+            <span class="fax">Fax: 04.3311.3996</span>
+          </div>
+        </div>
+      </div>
+      <div id="cpy-right">Copyright © 2016 - All rights reserved</div>
+    </div>
+    <script src="assets/js/slider-index.js"></script>
+  </body>
+</html>

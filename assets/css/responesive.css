@@ -1,0 +1,29 @@
+@media screen and (max-width: 764px) {
+  #search,
+  #cart {
+    font-size: 30px;
+  }
+
+  #new-product-menu li:hover {
+    transform: scale(1, 1);
+  }
+
+  #new-product-menu .insert-on-cart,
+  #new-product-menu .name-product,
+  #new-product-menu .price {
+    font-size: 30px;
+  }
+
+  .description .title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .description p {
+    font-size: 18px;
+  }
+
+  #branches {
+    text-align: center;
+  }
+}
